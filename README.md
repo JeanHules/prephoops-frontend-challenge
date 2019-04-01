@@ -27,20 +27,20 @@ At a high level the navigation will have two main states
 
 ## Files
 
--   Mockup - Illustrator file describing how the nav should behave
--   server.js - node.js server that will host the site and provie the api to construct the nav
+-   Mockup - Illustrator file describing how the nav should behave can be found in the resources folder
+-   React Code - Although we allow you to use any JS framework you want, we have provided a very basic boilerplate for you to work with. This can be found in the react-starter-code folder. Simply run **yarn** to install the dependencies and then **yarn dev** to start the server.
 
 ## API
 
--   GET /api/nav.json - returns a JSON response representing the items in the nav.
+-   You will need to build a simple API using Laravel, which you will use to GET the data for the navs and the page content. You can architect the database however you want.
 
 ## Get Started
 
 ```
 git clone git@github.com:JeanHules/prephoops-frontend-challenge.git
-cd prephoops-frontend-challenge
-npm install
-npm start
+cd prephoops-frontend-challenge/react-starter-code
+yarn
+yarn dev
 ```
 
 ## Design Specifications
