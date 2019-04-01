@@ -1,0 +1,18 @@
+{
+  "name": "NavExercise",
+  "description": "Exercise for candidates to complete where they will build a responsive nav driven from json",
+  "version": "0.1.0",
+  "authors": [
+    "John Hull <john@prepnetwork.com>"
+  ],
+  "license": "© 2018 PrepHoops. All Rights Reserved.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "morgan": "~1.0.0"
+  }
+}
